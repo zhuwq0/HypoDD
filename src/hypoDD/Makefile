@@ -20,7 +20,7 @@ CSRCS	= datetime_.c hypot_.c
 #CSRCS	= atoangle_.c atoangle.c datetime_.c hypot_.c rpad_.c 
 OBJS	= $(SRCS:%.f=%.o) $(CSRCS:%.c=%.o)
 INCLDIR	= ../../include
-CFLAGS	= -O -I$(INCLDIR)
+CFLAGS	= -O -I$(INCLDIR) -mcmodel=large
 
 #LDFLAGS = 
 LDFLAGS = -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -lgcc
@@ -31,7 +31,7 @@ listflg = -L -c -O
 
 # Flags for SUN f77 compiler
 #FFLAGS	= -O -I$(INCLDIR) -g
-FFLAGS	= -O -I$(INCLDIR) 
+FFLAGS	= -O -I$(INCLDIR) -mcmodel=large
 
 # Following line needed on HP-UX (hasn't been tested, though).
 #LDFLAGS	= +U77
