@@ -14,8 +14,15 @@ src/ncsn2pha/ncsn2pha
 # macOS
 .DS_Store
 
-# Per-iteration reloc snapshots (regenerated on each run)
+# Example run outputs (regenerated on each run; reference_output/ is the ground truth)
+examples/*/hypoDD.loc
+examples/*/hypoDD.log
+examples/*/hypoDD.reloc
 examples/*/hypoDD.reloc.*
+examples/*/hypoDD.res
+examples/*/hypoDD.src
+examples/*/hypoDD.sta
+examples/*/ph2dt.log
 
 # Debug/comparison files from pyHypoDD validation
 examples/*/fortran_*.txt
