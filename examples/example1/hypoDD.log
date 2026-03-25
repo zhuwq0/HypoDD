@@ -1,4 +1,4 @@
-starting hypoDD (v2.1beta - 06/15/2016)...   Wed Mar 25 15:34:25 2026³
+starting hypoDD (v2.1beta - 06/15/2016)...   Wed Mar 25 15:41:01 2026j
 Input parameters: hypoDD.inp (hypoDD2.0 format)
 INPUT FILES:
  cross dtime data: dt.cc
@@ -48,7 +48,7 @@ Relocate cluster number    1
 Relocate all events
 Remove air quakes.
 
-~ Reading data ...   Wed Mar 25 15:34:25 2026 
+~ Reading data ...   Wed Mar 25 15:41:01 2026 
 # stations total =     75
 # stations < maxdist =     75
 # stations w/ neg. elevation (set to 0) =    0
@@ -70,14 +70,14 @@ Cluster    1:    16 events
    242668     402094     484120   30034705   30058032   30065107   30107759      38520
 
 
-RELOCATION OF CLUSTER: 1     Wed Mar 25 15:34:25 2026³
+RELOCATION OF CLUSTER: 1     Wed Mar 25 15:41:01 2026j
 ----------------------
 Cluster centroid at:  37.878078  -122.243950   9.308125
 Rotation of coordinate system:   0.000000
 # events:   16
 # initial trial sources:    16
 
-===ITERATION   1 (  1) Wed Mar 25 15:34:25 2026³
+===ITERATION   1 (  1) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  0.0100  wt_ccs=  0.0050  maxr_cc= *******  maxd_cc= -999.00
@@ -86,7 +86,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    75 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:*******s/******km (  0.0%)
  ct res/dist cutoff [s]:  1.366s/******km (  0.0%)
 no data skipped.
@@ -136,9 +136,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.001
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  1  1 100 100 100   52 -36.1   31 -64.8   489  172  290  231   17    0   0
-Iteration  1 finished Wed Mar 25 15:34:25 2026³
+Iteration  1 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   2 (  2) Wed Mar 25 15:34:25 2026³
+===ITERATION   2 (  2) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  0.0100  wt_ccs=  0.0050  maxr_cc= *******  maxd_cc= -999.00
@@ -147,7 +147,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    75 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:*******s/******km (  0.0%)
  ct res/dist cutoff [s]:  0.296s/  4.00km (  3.2%)
 skipping data...
@@ -192,9 +192,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.002
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  2  2 100  97 100   27 -48.1   24 -23.3   226   32   19   71    5    0   0
-Iteration  2 finished Wed Mar 25 15:34:25 2026³
+Iteration  2 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   3 (  3) Wed Mar 25 15:34:25 2026³
+===ITERATION   3 (  3) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  0.0100  wt_ccs=  0.0050  maxr_cc= *******  maxd_cc= -999.00
@@ -203,7 +203,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    75 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:*******s/******km (  0.0%)
  ct res/dist cutoff [s]:  0.209s/  4.00km (  1.8%)
 skipping data...
@@ -246,9 +246,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.003
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  3  3 100  95 100   23 -14.5   23  -4.1   210    6    2   31    1    0   0
-Iteration  3 finished Wed Mar 25 15:34:25 2026³
+Iteration  3 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   4 (  4) Wed Mar 25 15:34:25 2026³
+===ITERATION   4 (  4) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  0.0100  wt_ccs=  0.0050  maxr_cc= *******  maxd_cc= -999.00
@@ -257,7 +257,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:*******s/******km (  0.0%)
  ct res/dist cutoff [s]:  0.198s/  4.00km (  0.4%)
 skipping data...
@@ -300,9 +300,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.004
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  4  4 100  95 100   22  -3.2   22  -1.4   192    3    1    7    0    0   0
-Iteration  4 finished Wed Mar 25 15:34:25 2026³
+Iteration  4 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   5 (  5) Wed Mar 25 15:34:25 2026³
+===ITERATION   5 (  5) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  6.0000  maxd_cc=    3.00
@@ -311,7 +311,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.108s/  3.00km (  0.2%)
  ct res/dist cutoff [s]:  0.196s/  3.00km (  0.0%)
 skipping data...
@@ -354,9 +354,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.005
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  5  5 100  95 100   23   4.0   12 -46.9   214   17   25   52    3    0   0
-Iteration  5 finished Wed Mar 25 15:34:25 2026³
+Iteration  5 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   6 (  6) Wed Mar 25 15:34:25 2026³
+===ITERATION   6 (  6) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  6.0000  maxd_cc=    3.00
@@ -365,7 +365,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.072s/  3.00km (  0.4%)
  ct res/dist cutoff [s]:  0.197s/  3.00km (  0.3%)
 skipping data...
@@ -408,9 +408,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.006
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  6  6 100  94  99   23  -1.3   11  -7.1   148    3    3    9    0    0   0
-Iteration  6 finished Wed Mar 25 15:34:25 2026³
+Iteration  6 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   7 (  7) Wed Mar 25 15:34:25 2026³
+===ITERATION   7 (  7) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  6.0000  maxd_cc=    3.00
@@ -419,7 +419,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.068s/  3.00km (  0.1%)
  ct res/dist cutoff [s]:  0.196s/  3.00km (  0.1%)
 skipping data...
@@ -462,9 +462,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.007
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  7  7 100  94  99   23  -0.7   11  -2.1   148    1    1    7    0    0   0
-Iteration  7 finished Wed Mar 25 15:34:25 2026³
+Iteration  7 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   8 (  8) Wed Mar 25 15:34:25 2026³
+===ITERATION   8 (  8) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  5.0000  maxd_cc=    2.00
@@ -473,7 +473,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.056s/  2.00km (  0.5%)
  ct res/dist cutoff [s]:  0.177s/  2.00km (  0.6%)
 skipping data...
@@ -516,9 +516,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.008
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  8  8 100  94  99   26  13.2    7 -37.7   130   14   21   73    5    0   0
-Iteration  8 finished Wed Mar 25 15:34:25 2026³
+Iteration  8 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION   9 (  9) Wed Mar 25 15:34:25 2026³
+===ITERATION   9 (  9) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  5.0000  maxd_cc=    2.00
@@ -527,7 +527,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.031s/  2.00km (  0.8%)
  ct res/dist cutoff [s]:  0.218s/  2.00km (  0.0%)
 skipping data...
@@ -570,9 +570,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.009
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
  9  9 100  94  98   28   7.0    6 -14.9   131    2    4   10    0    0   0
-Iteration  9 finished Wed Mar 25 15:34:25 2026³
+Iteration  9 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION  10 ( 10) Wed Mar 25 15:34:25 2026³
+===ITERATION  10 ( 10) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  5.0000  maxd_cc=    2.00
@@ -581,7 +581,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.029s/  2.00km (  0.4%)
  ct res/dist cutoff [s]:  0.224s/  2.00km (  0.0%)
 skipping data...
@@ -624,9 +624,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.010
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
 10 10 100  94  98   28   1.0    5  -4.5   131    1    2    5    0    0   0
-Iteration 10 finished Wed Mar 25 15:34:25 2026³
+Iteration 10 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION  11 ( 11) Wed Mar 25 15:34:25 2026³
+===ITERATION  11 ( 11) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  4.0000  maxd_cc=    1.00
@@ -635,7 +635,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.022s/  1.00km (  2.0%)
  ct res/dist cutoff [s]:  0.200s/  2.00km (  0.0%)
 skipping data...
@@ -678,9 +678,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.011
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
 11 11 100  94  96   27  -3.5    5 -11.8   132    2    3    6    0    0   0
-Iteration 11 finished Wed Mar 25 15:34:25 2026³
+Iteration 11 finished Wed Mar 25 15:41:01 2026j
 
-===ITERATION  12 ( 12) Wed Mar 25 15:34:25 2026³
+===ITERATION  12 ( 12) Wed Mar 25 15:41:01 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  4.0000  maxd_cc=    1.00
@@ -689,7 +689,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:01 2026
  cc res/dist cutoff:  0.021s/  1.00km (  0.7%)
  ct res/dist cutoff [s]:  0.205s/  2.00km (  0.0%)
 skipping data...
@@ -732,9 +732,9 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.012
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
 12 12 100  94  95   27   1.3    5  -3.1   132    1    2    5    0    0   0
-Iteration 12 finished Wed Mar 25 15:34:25 2026³
+Iteration 12 finished Wed Mar 25 15:41:02 2026j
 
-===ITERATION  13 ( 13) Wed Mar 25 15:34:25 2026³
+===ITERATION  13 ( 13) Wed Mar 25 15:41:02 2026j
 
 Weighting parameters for this iteration:
   wt_ccp=  1.0000  wt_ccs=  0.5000  maxr_cc=  4.0000  maxd_cc=    1.00
@@ -743,7 +743,7 @@ Weighting parameters for this iteration:
 
 ~ getting partials for    74 stations and    16 source(s) ...
 ~ getting residual vector...
-re-weighting ... Wed Mar 25 15:34:25 2026
+re-weighting ... Wed Mar 25 15:41:02 2026
  cc res/dist cutoff:  0.021s/  1.00km (  0.9%)
  ct res/dist cutoff [s]:  0.206s/  2.00km (  0.0%)
 skipping data...
@@ -786,6 +786,6 @@ Relocation results for this iteration are stored in hypoDD.reloc.001.013
   IT   EV  CT  CC    RMSCT      RMSCC   RMSST   DX   DY   DZ   DT   OS  AQ
         %   %   %   ms     %   ms     %    ms    m    m    m   ms    m 
 13 13 100  94  94   28   0.3    5  -2.1   132    1    1    3    0    0   0
-Iteration 13 finished Wed Mar 25 15:34:25 2026³
+Iteration 13 finished Wed Mar 25 15:41:02 2026j
 
-   Program hypoDD finished. Wed Mar 25 15:34:25 2026³
+   Program hypoDD finished. Wed Mar 25 15:41:02 2026j
