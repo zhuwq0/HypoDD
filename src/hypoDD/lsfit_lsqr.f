@@ -383,9 +383,9 @@ c d= data vector; w1,w2 = workspace; x= solution vector; se=solution error
      & atol, btol, conlim, itnlim, 
      & istop, anorm, acond, rnorm, arnorm, xnorm)
 
-      write(log,'("  istop = ",i1,"; acond (CND)=",f8.1,"; anorm =",f8.1,
-     & "; arnorm =",f8.1,"; xnorm =",f8.1)')
-     & istop, acond, anorm, arnorm, xnorm
+      write(log,1386) istop, acond, anorm, arnorm, xnorm
+1386  format("  istop = ",i1,"; acond (CND)=",f8.1,
+     & "; anorm =",f8.1,"; arnorm =",f8.1,"; xnorm =",f8.1)
 
       if (nsrc.eq.1) nsrc = nev
 
@@ -502,7 +502,7 @@ c     Output location statistics
       write(log,'(/,"Location summary:")')
       write(log,'(
      & " mean 2sig-error (x,y,z,t) [m,ms]: ",/,f7.1,f7.1,f7.1,f7.1,
-     & " (",f7.1,f7.1,f7.1,f7.1")",/,
+     & " (",f7.1,f7.1,f7.1,f7.1,")",/,
      & " mean shift (x,y,z,t) [m,ms] (DX,DY,DZ,DT): ",/,
      & f7.1,f7.1,f7.1,f7.1," (",f7.1,f7.1,f7.1,f7.1,")")')
      & exav, eyav, ezav, etav, exav-exavold, eyav-eyavold, 

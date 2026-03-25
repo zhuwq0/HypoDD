@@ -477,7 +477,7 @@ c     Get average errors and vector changes
       endif
       write(log,'(/,"Location summary:",/,
      & "  mean 2sig-error (x,y,z,t) [m,ms]: ",/,f7.1,f7.1,f7.1,f7.1,
-     & " (",f7.1,f7.1,f7.1,f7.1")",/,
+     & " (",f7.1,f7.1,f7.1,f7.1,")",/,
      & "  mean shift (x,y,z,t) [m,ms] (DX,DY,DZ,DT): ",/,
      & f7.1,f7.1,f7.1,f7.1," (",f7.1,f7.1,f7.1,f7.1,")")')
      & exav,eyav,ezav,etav,exav-exavold,eyav-eyavold,

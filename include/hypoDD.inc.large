@@ -16,14 +16,11 @@ c MAXCL:    Max number of clusters allowed.
 	integer*4 MAXEVE, MAXLAY, MAXDATA, MAXSTA, MAXEVE0, MAXDATA0
 	integer*4 MAXCL
 
-c parameters for small/medium problems (ARM64 macOS compatible)
-c Note: ARM64 has a 4GB ADRP addressing limit for BSS segments.
-c       Large arrays (MAXEVE=100000, MAXDATA=30M) exceed this.
-c       Use hypoDD.inc.large on x86_64 Linux servers.
-      parameter(MAXEVE=   1000,
-     &          MAXDATA=  500000,
+c parameters for large size problems (Linux x86_64 servers)
+      parameter(MAXEVE=   100000,
+     &          MAXDATA=  30000000,
      &          MAXEVE0=  215,
-     &          MAXDATA0= 20000,
+     &          MAXDATA0= 100000,
      &          MAXLAY=   50,
      &          MAXSTA=   2500,
      &          MAXCL=    200)

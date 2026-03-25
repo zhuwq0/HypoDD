@@ -9,18 +9,14 @@ SRCS	= $(CMD).f \
 CSRCS	= rpad_.c datetime_.c 
 OBJS	= $(SRCS:%.f=%.o) $(CSRCS:%.c=%.o)
 INCLDIR	= ../../include
-CFLAGS	= -O -I$(INCLDIR) -mcmodel=large
+# MCMODEL is set by parent Makefile (empty on ARM64, -mcmodel=large on x86_64)
+MCMODEL ?=
 
-LDFLAGS = -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -lgcc
-#LDFLAGS = 
+CFLAGS	= -O -I$(INCLDIR) $(MCMODEL)
+LDFLAGS =
+FFLAGS  = -I$(INCLDIR) -g $(MCMODEL)
+
 listflg = -L -c -O
-
-# Flags for GNU g77 compiler
-#FFLAGS	= -O -I$(INCLDIR) -fno-silent -Wall -implicit
-
-# Flags for SUN f77 compiler
-#FFLAGS = -O -I$(INCLDIR) -g
-FFLAGS  = -I$(INCLDIR) -g -mcmodel=large
 
 # Following line needed on HP-UX (hasn't been tested, though).
 #LDFLAGS	= +U77

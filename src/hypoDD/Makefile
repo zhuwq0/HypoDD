@@ -1,7 +1,7 @@
 CMD	= hypoDD
 CC	= gcc
 #FC	= g77
-FC	= gfortran 
+FC	= gfortran
 #FC	= f77
 SRCS	= $(CMD).f \
 	  aprod.f cluster1.f covar.f datum.f \
@@ -16,22 +16,19 @@ SRCS	= $(CMD).f \
 	  ttime.f vmodel.f weighting.f get_vel3d.f \
 	  partials_3d.f setorg_3d.f ray_3d.f \
 	  partials_1dmm.f partials_1dsr.f nval.f
-CSRCS	= datetime_.c hypot_.c 
-#CSRCS	= atoangle_.c atoangle.c datetime_.c hypot_.c rpad_.c 
+CSRCS	= datetime_.c hypot_.c
+#CSRCS	= atoangle_.c atoangle.c datetime_.c hypot_.c rpad_.c
 OBJS	= $(SRCS:%.f=%.o) $(CSRCS:%.c=%.o)
 INCLDIR	= ../../include
-CFLAGS	= -O -I$(INCLDIR) -mcmodel=large
 
-#LDFLAGS = 
-LDFLAGS = -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -lgcc
+# MCMODEL is set by parent Makefile (empty on ARM64, -mcmodel=large on x86_64)
+MCMODEL ?=
+
+CFLAGS	= -O -I$(INCLDIR) $(MCMODEL)
+LDFLAGS =
+FFLAGS	= -O -I$(INCLDIR) $(MCMODEL)
+
 listflg = -L -c -O
-
-# Flags for GNU g77 compiler
-#FFLAGS	= -O -I$(INCLDIR) -fno-silent -Wall -implicit -g
-
-# Flags for SUN f77 compiler
-#FFLAGS	= -O -I$(INCLDIR) -g
-FFLAGS	= -O -I$(INCLDIR) -mcmodel=large
 
 # Following line needed on HP-UX (hasn't been tested, though).
 #LDFLAGS	= +U77
@@ -87,4 +84,3 @@ datetime_.o	: $(INCLDIR)/f77types.h
 #sscanf3_.o	: $(INCLDIR)/f77types.h
 #sscanf4_.o	: $(INCLDIR)/compat.h
 #sscanf4_.o	: $(INCLDIR)/f77types.h
-
