@@ -1,2 +1,32 @@
+# Build artifacts
 *.o
+*.a
+*.fln
+core
+a.out
+junk
+
+# Compiled binaries
+src/hypoDD/hypoDD
+src/ph2dt/ph2dt
+src/ncsn2pha/ncsn2pha
+
+# macOS
 .DS_Store
+
+# Per-iteration reloc snapshots (regenerated on each run)
+examples/*/hypoDD.reloc.*
+
+# Debug/comparison files from pyHypoDD validation
+examples/*/fortran_*.txt
+examples/*/fortran_*.log
+examples/*/python_*.txt
+examples/*/python_*.log
+examples/*/debug_*.py
+examples/*/hypoDD.reloc.fortran
+examples/*/hypoDD_*.inp
+
+# Other projects
+ADLoc/
+pyHypoDD/
+
