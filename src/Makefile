@@ -17,7 +17,7 @@ else
   LDFLAGS_EXTRA =
 endif
 
-# Allow override: make all SIZE=large  or  make all SIZE=small
+# Allow override: make all SIZE=large, SIZE=medium (12,000 events, 3 M observations; links on ARM64) or SIZE=small
 export MCMODEL
 
 INCLDIR = ../include
