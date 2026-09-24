@@ -100,6 +100,9 @@ c           Determine wave speed at the hypocenter
                if (src_dep(j).le.mod_top(k)) goto 10	! break
             enddo
 10          continue
+c           source at or above the top of the model: use the top layer
+c           (k=1 would read mod_v(0) and vs(0), outside the arrays)
+            if (k.lt.2) k = 2
 
 c           Depth derivative
             tmp_zp(i,j) = cos((ainp * pi)/180.0)/mod_v(k-1)

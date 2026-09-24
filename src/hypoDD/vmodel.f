@@ -48,6 +48,8 @@ c	lead to incorrect results for traveltime
 	endif
    20	continue
    25	continue
+c source at or above the top of the model: the top layer (jl=0 is outside the arrays)
+	if (jl.lt.1) jl=1
 
 	do 30 i=1,nl-1
    30	thk(i)=top(i+1)-top(i)
